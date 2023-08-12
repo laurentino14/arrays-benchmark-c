@@ -31,8 +31,6 @@ void run(){
 
     int position2 = 0;
 
-    
-
     int option;
     printf("Choose result type:\n1 - Values comparison\n2 - Size comparison\n\n", option);
     scanf("%d", &option);
@@ -41,7 +39,7 @@ void run(){
 
     if(option == 1){
         printf("______________________________________________________________________________________________________________\n\n\n");
-
+        // With previous value
         for(int i = 0;i < max; i++){
 
             c.value = 10*i;
@@ -65,6 +63,7 @@ void run(){
             printf("\nMemory of Array: %d   |   Memory of first box: %d   |   Size With Previous value: %d\n\n\n", &arr, &arr[0][0], sizeof(arr));
             printf("______________________________________________________________________________________________________________\n\n\n");
 
+        // Without previous value   
         for(int i = 0;i < max; i++){
 
             value = 10*i;
