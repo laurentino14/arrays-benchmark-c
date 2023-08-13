@@ -92,10 +92,10 @@ void run(){
 
         system("clear");
         printf("\n\nComparison:\n\n");
-        printf("2 values => box w/ 2 dimensions: %d bits || %d bytes\n", sizeof(arr), (sizeof(arr)/8));
-        printf("1 value  => box traditional: %d bits || %d bytes\n", sizeof(arr2), (sizeof(arr2)/8));
-        printf("1 value  => box w/ 2 dimensions: %d bits || %d bytes\n", sizeof(arr3), (sizeof(arr3)/8));
-        printf("1 value  => box traditional: %d bits || %d bytes\n", sizeof(arr4), (sizeof(arr4)/8));
+        printf("2 values => box w/ 2 dimensions: %d bytes || %d bits\n", sizeof(arr), (sizeof(arr)*8));
+        printf("1 value  => box traditional: %d bytes || %d bits\n", sizeof(arr2), (sizeof(arr2)*8));
+        printf("1 value  => box w/ 2 dimensions: %d bytes || %d bits\n", sizeof(arr3), (sizeof(arr3)*8));
+        printf("1 value  => box traditional: %d bytes || %d bits\n", sizeof(arr4), (sizeof(arr4)*8));
 
     };
 }
