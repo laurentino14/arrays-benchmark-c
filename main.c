@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <linux/input.h>
 #define X 2
 #define Y 4
 #define max 8
@@ -11,8 +10,6 @@ struct example {
     int value;
     int *previous;
 };
-
-
 
 struct example arr[X][Y];
 int arr2[max] = {0,1,2,3,4,5,6,7};
